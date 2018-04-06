@@ -1,0 +1,61 @@
+a,a:link,a:visited,a:hover,a:active,.router-link-active {
+  text-decoration: none;
+  color:red;
+}
+ul,li{
+  padding:0;margin:0;
+  border:none!important;
+}
+
+  /*侧边栏菜单*/
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+  position: relative;
+  overflow: scroll;
+}
+
+
+
+.app-wrapper{
+  .slide{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    width:202px;
+    height:100%;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    background:#304156;
+    transition: width .3s linear;
+  }
+  /*滚动条样式*/
+  .slide::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+  }
+  .slide::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+  }
+  .slide::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+  }
+}
+.app-wrapper.hideSidebar{
+  .slide{
+    width:65px;
+    transition: width 0.3s linear;
+  }
+  .main-container{
+    margin-left:65px;
+  }
+}
+
+.main-container{
+  margin-left:200px;
+}
