@@ -57,7 +57,7 @@ export default new Router({
           component: option1_2,
           meta:{name:"选项二",icon:"el-icon-location"},
         }
-      ]
+      ],
     },
     {
       path: '/navigation2',
@@ -77,6 +77,7 @@ export default new Router({
       path: '/navigation3',
       name: 'navigation3',
       component: Manage,
+      meta:{name:"导航三",icon:"el-icon-location-outline"},
       children:[{
         path: 'option3_1',
         name: 'option3_1',
