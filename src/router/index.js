@@ -49,7 +49,7 @@ export default new Router({
           path: 'option1_1',
           name: 'option1_1',
           component: option1_1,
-          meta:{name:"选项一",icon:"el-icon-location-outline"},
+          meta:{name:"canvas画图",icon:"el-icon-location-outline"},
         },
         {
           path: 'option1_2',
