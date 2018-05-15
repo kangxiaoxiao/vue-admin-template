@@ -1,4 +1,4 @@
-在线地址：https://kangxiaoxiao.github.io/vue-admin-template/
+在线地址：https://kangxiaoxiao.github.io/vue-admin-template/dist
 # vue-admin-template
 
 > A Vue.js project
