@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Manage from '@/components/Manage'
-import home from '@/components/home'
-import login from '@/components/login'
-import option1_1 from '@/components/container/option1_1'
-import option1_2 from '@/components/container/option1_2'
-import option2_1 from '@/components/container/option2_1'
-import option3_1 from '@/components/container/option2_2'
+import HelloWorld from '@/views/HelloWorld'
+import Manage from '@/views/Manage'
+import home from '@/views/home'
+import login from '@/views/login'
+import option1_1 from '@/views/container/option1_1'
+import option1_2 from '@/views/container/option1_2'
+import option2_1 from '@/views/container/option2_1'
+import option3_1 from '@/views/container/option2_2'
 
 Vue.use(Router)
 

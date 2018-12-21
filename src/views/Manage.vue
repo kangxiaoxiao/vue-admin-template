@@ -22,7 +22,7 @@
 <script>
   import sidebar from "@/components/layout/sidebar";
   import navBar from "@/components/layout/navBar";
-  import container from "@/components/container/index";
+  import container from "@/views/container/index";
 
   export default {
     data() {
