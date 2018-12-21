@@ -1,5 +1,5 @@
 <template>
-  <div class="option1_2" @click="hidePanel()">
+  <div class="option1_2" >
     <!--<base-checkbox v-model="lovingVue"></base-checkbox>
     <hr/>-->
     <el-button @click.stop="hidePanel()">切换</el-button>
@@ -59,6 +59,7 @@
     },
     methods:{
       hidePanel(){
+        console.log("点击事件");
         let _this=this;
         this.$refs.cascadeModule.handleChangeStatus(JSON.stringify(_this.value1));
       }
